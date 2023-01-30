@@ -1,0 +1,27 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: lightgreen;
+     min-height: 100vh;
+     display: grid;
+ }
+
+ .winds, .covered {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .winds button, .covered button {
+     height: max-content;
+     width: max-content;
+     align-content: center;
+ }
+
+ .covered {
+    position: relative;
+    top: -180px;
+ }
